@@ -32,6 +32,9 @@ int main() {
 		return 1;
 	}
 
+	free(list1);
+	free(list2);
+	
 	return 0;
 
 }
