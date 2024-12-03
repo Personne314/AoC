@@ -40,6 +40,7 @@ int main() {
 		}
 
 	}
+	fclose(file);
 
 	printf("valid: %d\n", sum-nv_sum);
 
